@@ -48,62 +48,63 @@ const Services = () => {
 
   const testimonials = [
     {
-      name: "Sarah Johnson",
-      role: "CEO, TechStart Inc",
-      content: "Bhavik delivered an exceptional e-commerce platform that exceeded our expectations. His attention to detail and technical expertise are outstanding.",
+      name: "Chinmay Pingle",
+      role: "College project partner",
+      content: "Bhavik Naik has been a reliable and supportive project partner throughout our college journey. They consistently contributed to assignments and projects with dedication, teamwork, and clear communication. I really appreciated their help and collaboration.",
       rating: 5
     },
     {
-      name: "Michael Chen",
-      role: "Product Manager, InnovateLab",
-      content: "Working with Bhavik was a pleasure. He understood our requirements perfectly and delivered a scalable solution on time.",
+  "name": "Naina Butler",
+  "role": "Product Manager, InnovateLab",
+  "content": "We were drowning in flaky Selenium tests until  implemented a Cypress + Cucumber BDD framework. Test stability jumped to 98%, and they seamlessly integrated it into our CI/CD pipeline—saving us over 15 hours a week in debugging false positives.",
+  "rating": 5
+},
+
+    {
+      name: "Harsh Badge",
+      role: "Medical Portal",
+      content: "Our HIPAA-compliant patient portal had accessibility issues (WCAG 2.1 AA). refactored the UI with ARIA labels and keyboard navigation, passing all audits. They even trained our team on inclusive design—went above the contract!",
       rating: 5
     },
     {
-      name: "Emily Rodriguez",
-      role: "CTO, DataFlow Systems",
-      content: "Bhavik's DevOps expertise helped us streamline our deployment process. His solutions are robust and well-documented.",
-      rating: 5
-    },
-    {
-      name: "David Kim",
+      name: "Kris",
       role: "Founder, AppVenture",
-      content: "The quality of code and the performance of the application Bhavik built for us is remarkable. Highly recommended!",
+      content: "Our Kubernetes clusters kept crashing during game launches. redesigned our Helm charts, implemented Prometheus alerting, and set up canary deployments with Flagger. Deployment failures dropped by 90%, and rollback time is now under 2 minutes.",
       rating: 5
     },
     {
-      name: "Lisa Thompson",
-      role: "Marketing Director, GrowthHub",
+      name: "Girish Ingle",
+      role: "GYM website",
       content: "Bhavik's web development skills transformed our online presence. The website is fast, beautiful, and user-friendly.",
       rating: 5
     },
     {
-      name: "James Wilson",
+      name: "SUHAS paikrao",
       role: "Operations Manager, CloudScale",
       content: "His DevOps implementation reduced our deployment time by 70%. Bhavik is a true professional.",
       rating: 5
     },
     {
-      name: "Priya Patel",
+      name: "Ayush karwade",
       role: "Lead Developer, CodeCraft",
       content: "Bhavik's expertise in MERN stack is impressive. He delivered a complex project with clean, maintainable code.",
       rating: 5
     },
     {
-      name: "Robert Brown",
+      name: "Salman Ansari",
       role: "Business Owner, LocalMarket",
       content: "The e-commerce platform Bhavik developed has significantly boosted our online sales. Excellent work!",
       rating: 5
     },
     {
-      name: "Anna Martinez",
-      role: "Project Manager, WebSolutions",
+      name: "Akshay Sawalkar",
+      role: "Project Manager, Web & Qa Solutions ",
       content: "Bhavik's communication throughout the project was excellent. He's reliable, skilled, and delivers quality work.",
       rating: 5
     },
     {
-      name: "Tom Anderson",
-      role: "Tech Lead, FutureApps",
+      name: "Parash Wathe ",
+      role: "Hr management web, FutureApps",
       content: "Working with Bhavik on our full-stack project was seamless. His technical knowledge and problem-solving skills are top-notch.",
       rating: 5
     }
