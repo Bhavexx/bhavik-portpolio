@@ -8,42 +8,42 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 220 26% 14%;
-    --foreground: 210 40% 98%;
+    --background: 0 0% 0%;
+    --foreground: 0 0% 96%;
 
-    --card: 220 25% 16%;
-    --card-foreground: 210 40% 98%;
+    --card: 0 0% 5%;
+    --card-foreground: 0 0% 96%;
 
-    --popover: 220 25% 16%;
-    --popover-foreground: 210 40% 98%;
+    --popover: 0 0% 5%;
+    --popover-foreground: 0 0% 96%;
 
-    --primary: 200 98% 48%;
-    --primary-foreground: 220 26% 14%;
+    --primary: 21 100% 55%;
+    --primary-foreground: 0 0% 0%;
 
-    --secondary: 240 68% 58%;
-    --secondary-foreground: 210 40% 98%;
+    --secondary: 343 66% 48%;
+    --secondary-foreground: 0 0% 100%;
 
-    --muted: 220 20% 25%;
-    --muted-foreground: 215 20% 65%;
+    --muted: 0 0% 12%;
+    --muted-foreground: 0 0% 70%;
 
-    --accent: 280 75% 60%;
-    --accent-foreground: 210 40% 98%;
+    --accent: 343 85% 60%;
+    --accent-foreground: 0 0% 98%;
 
     --destructive: 0 84% 60%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive-foreground: 0 0% 98%;
 
-    --border: 220 20% 25%;
-    --input: 220 20% 25%;
-    --ring: 200 98% 48%;
+    --border: 0 0% 15%;
+    --input: 0 0% 15%;
+    --ring: 21 100% 55%;
 
     --radius: 0.75rem;
 
     /* Custom design tokens */
-    --gradient-primary: linear-gradient(135deg, hsl(200 98% 48%), hsl(240 68% 58%));
-    --gradient-accent: linear-gradient(135deg, hsl(280 75% 60%), hsl(200 98% 48%));
-    --gradient-hero: linear-gradient(135deg, hsl(220 26% 14%), hsl(240 30% 20%));
-    --shadow-glow: 0 0 40px hsl(200 98% 48% / 0.3);
-    --shadow-card: 0 8px 32px hsl(220 30% 5% / 0.5);
+    --gradient-primary: linear-gradient(135deg, hsl(21 100% 55%), hsl(343 66% 48%));
+    --gradient-accent: linear-gradient(135deg, hsl(343 66% 48%), hsl(0 0% 0%));
+    --gradient-hero: linear-gradient(180deg, hsl(0 0% 0%), hsl(21 25% 4%));
+    --shadow-glow: 0 0 40px hsl(21 100% 55% / 0.2);
+    --shadow-card: 0 8px 32px hsl(0 0% 0% / 0.8);
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   }
 }

@@ -85,6 +85,13 @@ const Projects = () => {
       url: "https://github.com/Bhavexx/Netflix-Shows-and-Movies-SQL-main",
       category: "database",
       tech: ["SQL", "Data Analysis"]
+    },
+    {
+      title: "AI Agent Services ",
+      description: "AI-powered agent services platform",
+      url: "https://ai-agent-services-rosy.vercel.app/",
+      category: "fullstack",
+      tech: ["React", "Vite", "Tailwind CSS", "Spline 3D"]
     }
   ];
 

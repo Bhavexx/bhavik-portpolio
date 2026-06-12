@@ -103,7 +103,7 @@ const Services = () => {
       rating: 5
     },
     {
-      name: "Parash Wathe ",
+      name: "Sahil Ramteke ",
       role: "Hr management web, FutureApps",
       content: "Working with Bhavik on our full-stack project was seamless. His technical knowledge and problem-solving skills are top-notch.",
       rating: 5

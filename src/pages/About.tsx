@@ -25,16 +25,52 @@ const About = () => {
 
   const experiences = [
     {
+      company: "Siddab Pvt Company",
+      period: "May 2026 - Present",
+      role: "Frontend Developer",
+      description: [
+        "Developing responsive web applications and implementing modern UI features.",
+        "Collaborating with the design and engineering teams to translate wireframes into interactive components.",
+        "Working on frontend architecture optimization and improving code modularity."
+      ]
+    },
+    {
+      company: "Learn X Chain",
+      period: "November 2025 - January 2026",
+      role: "Frontend Developer",
+      description: [
+        "Developed scalable and responsive user interfaces using React.js, JavaScript (ES6+), HTML5, and CSS3 for production-level web applications.",
+        "Built reusable React.js components to improve UI consistency and streamline frontend development workflows.",
+        "Integrated RESTful APIs and dynamic data rendering to enhance user interaction and application functionality.",
+        "Optimized frontend performance and improved cross-browser compatibility across desktop and mobile devices.",
+        "Collaborated with designers, backend developers, and QA teams in Agile/Scrum environments to deliver features within project deadlines.",
+        "Followed clean code practices and Git-based version control to maintain scalable and maintainable codebases."
+      ]
+    },
+    {
       company: "CodeAlpha",
       period: "November 2024 - April 2025",
       role: "Developer Intern",
-      description: "Worked on full-stack projects, implementing modern web technologies and best practices."
+      description: [
+        "Developed full-stack web applications using React.js, Node.js, Express.js, and MongoDB for prototype and production-ready solutions.",
+        "Designed and implemented RESTful APIs for authentication, CRUD operations, and user data management.",
+        "Integrated frontend interfaces with backend services to enable seamless client-server communication.",
+        "Collaborated with product managers and UI/UX designers to translate business requirements into functional web applications.",
+        "Implemented responsive UI components and optimized application workflows to improve user experience.",
+        "Participated in Agile/Scrum development processes, debugging, documentation, and feature enhancement activities.",
+        "Worked with Git/GitHub version control systems to manage collaborative development and code maintenance."
+      ]
     },
     {
       company: "Codaaz",
       period: "September 2024 - March 2025",
       role: "Developer Intern",
-      description: "Contributed to various development projects, focusing on MERN stack and DevOps practices."
+      description: [
+        "Designed and developed responsive frontend interfaces using React.js and Angular for modern web applications.",
+        "Built reusable UI components and optimized layouts to improve usability and user engagement.",
+        "Identified, debugged, and resolved frontend issues through testing and performance optimization techniques.",
+        "Maintained clean and structured code using Git/GitHub version control practices."
+      ]
     }
   ];
 
@@ -98,7 +134,15 @@ const About = () => {
                       </div>
                       <span className="text-sm text-muted-foreground">{exp.period}</span>
                     </div>
-                    <p className="text-muted-foreground">{exp.description}</p>
+                    {Array.isArray(exp.description) ? (
+                      <ul className="space-y-2 list-disc pl-5 text-muted-foreground text-sm">
+                        {exp.description.map((point, i) => (
+                          <li key={i}>{point}</li>
+                        ))}
+                      </ul>
+                    ) : (
+                      <p className="text-muted-foreground">{exp.description}</p>
+                    )}
                   </CardContent>
                 </Card>
               ))}
