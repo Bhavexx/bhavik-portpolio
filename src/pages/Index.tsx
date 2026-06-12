@@ -46,13 +46,40 @@ const Index = () => {
 
   const experiences = [
     {
+      company: "Siddab Pvt Company",
+      period: "May 2026 - Present",
+      role: "Frontend Developer",
+      description: [
+        "Developing responsive web applications and implementing modern UI features.",
+        "Collaborating with the design and engineering teams to translate wireframes into interactive components.",
+        "Working on frontend architecture optimization and improving code modularity."
+      ]
+    },
+    {
+      company: "Learn X Chain",
+      period: "November 2025 - January 2026",
+      role: "Frontend Developer",
+      description: [
+        "Developed scalable and responsive user interfaces using React.js, JavaScript (ES6+), HTML5, and CSS3 for production-level web applications.",
+        "Built reusable React.js components to improve UI consistency and streamline frontend development workflows.",
+        "Integrated RESTful APIs and dynamic data rendering to enhance user interaction and application functionality.",
+        "Optimized frontend performance and improved cross-browser compatibility across desktop and mobile devices.",
+        "Collaborated with designers, backend developers, and QA teams in Agile/Scrum environments to deliver features within project deadlines.",
+        "Followed clean code practices and Git-based version control to maintain scalable and maintainable codebases."
+      ]
+    },
+    {
       company: "CodeAlpha",
       period: "November 2024 - April 2025",
       role: "Developer Intern",
       description: [
-        "Built and deployed full-stack web apps using React.js, Node.js, Express.js, and MongoDB.",
-        "Designed RESTful APIs for authentication, CRUD operations, and data management.",
-        "Collaborated in Agile sprints to deliver clean, scalable code with CI/CD integration."
+        "Developed full-stack web applications using React.js, Node.js, Express.js, and MongoDB for prototype and production-ready solutions.",
+        "Designed and implemented RESTful APIs for authentication, CRUD operations, and user data management.",
+        "Integrated frontend interfaces with backend services to enable seamless client-server communication.",
+        "Collaborated with product managers and UI/UX designers to translate business requirements into functional web applications.",
+        "Implemented responsive UI components and optimized application workflows to improve user experience.",
+        "Participated in Agile/Scrum development processes, debugging, documentation, and feature enhancement activities.",
+        "Worked with Git/GitHub version control systems to manage collaborative development and code maintenance."
       ]
     },
     {
@@ -60,9 +87,10 @@ const Index = () => {
       period: "September 2024 - March 2025",
       role: "Developer Intern",
       description: [
-        "Developed user interfaces in React and Angular to enhance UX and reduce bounce rate.",
-        "Improved performance by optimizing rendering cycles and asset delivery.",
-        "Conducted bug testing and debugging for a seamless end-user experience."
+        "Designed and developed responsive frontend interfaces using React.js and Angular for modern web applications.",
+        "Built reusable UI components and optimized layouts to improve usability and user engagement.",
+        "Identified, debugged, and resolved frontend issues through testing and performance optimization techniques.",
+        "Maintained clean and structured code using Git/GitHub version control practices."
       ]
     }
   ];
@@ -82,8 +110,8 @@ const Index = () => {
       {/* Hero Section */}
       <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-20">
         <div className="absolute inset-0 bg-gradient-to-br from-background via-background to-card opacity-90" />
-        <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_50%,hsl(200_98%_48%/0.1),transparent_50%)]" />
-        <div className="absolute inset-0 bg-[radial-gradient(circle_at_70%_50%,hsl(240_68%_58%/0.1),transparent_50%)]" />
+        <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_50%,hsl(21_100%_55%/0.15),transparent_50%)]" />
+        <div className="absolute inset-0 bg-[radial-gradient(circle_at_70%_50%,hsl(343_66%_48%/0.15),transparent_50%)]" />
         
         <div className="container mx-auto px-6 relative z-10">
           <div className="grid md:grid-cols-2 gap-12 items-center">
@@ -95,8 +123,7 @@ const Index = () => {
                 </span>
               </h1>
               <p className="text-xl text-muted-foreground leading-relaxed">
-                Freelance MERN Stack & DevOps Developer | Full Stack Engineer | React.js, Node.js, MongoDB | 
-                Delivering Scalable & Reliable Web Solutions
+                MERN Stack & Full-Stack Developer | React.js, Node.js, PHP Laravel, Python | Building Scalable Web Applications, REST APIs & Responsive UI | Frontend Developer | Open to Freelance, Remote & Startup Opportunities
               </p>
               
               <div className="flex gap-4 pt-4">
@@ -186,7 +213,7 @@ const Index = () => {
 
       {/* Experience Section */}
       <section className="py-20 bg-card/50 relative overflow-hidden">
-        <div className="absolute inset-0 bg-[radial-gradient(circle_at_20%_50%,hsl(200_98%_48%/0.05),transparent_70%)]" />
+        <div className="absolute inset-0 bg-[radial-gradient(circle_at_20%_50%,hsl(21_100%_55%/0.1),transparent_70%)]" />
         <div className="container mx-auto px-6 relative z-10">
           <div className="text-center mb-16 animate-fade-in">
             <h2 className="text-4xl md:text-5xl font-bold mb-4 bg-gradient-to-r from-primary via-secondary to-accent bg-clip-text text-transparent">
@@ -224,7 +251,7 @@ const Index = () => {
       {/* Skills Section */}
       <section className="py-20 relative overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-b from-background via-card/20 to-background" />
-        <div className="absolute inset-0 bg-[radial-gradient(circle_at_80%_50%,hsl(240_68%_58%/0.08),transparent_70%)]" />
+        <div className="absolute inset-0 bg-[radial-gradient(circle_at_80%_50%,hsl(343_66%_48%/0.1),transparent_70%)]" />
         <div className="container mx-auto px-6 relative z-10">
           <div className="text-center mb-16 animate-fade-in">
             <h2 className="text-4xl md:text-5xl font-bold mb-4 bg-gradient-to-r from-primary via-secondary to-accent bg-clip-text text-transparent">
@@ -381,7 +408,7 @@ const Index = () => {
 
       {/* Contact Form Section */}
       <section className="py-20 bg-gradient-to-br from-card/50 via-background to-card/30 relative overflow-hidden">
-        <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,hsl(200_98%_48%/0.08),transparent_70%)]" />
+        <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,hsl(21_100%_55%/0.1),transparent_70%)]" />
         <div className="container mx-auto px-6 relative z-10">
           <div className="max-w-2xl mx-auto">
             <div className="text-center mb-12 animate-fade-in">
